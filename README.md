@@ -1,7 +1,7 @@
 # Server Chat
 
 ## Table of contents
-1. [ Background. ](#back)
+1. [ Background ](#back)
 2. [How to run the chat?](#run)
 3. [Addendum](#add)
 

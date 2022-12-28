@@ -7,7 +7,9 @@
 
 <a name="back"></a>
 ## Background
-Here is implement a simple chat that behaves in a similar way to a WhatsApp group, where each of the contacts can write, and every message someone write is sent to all members of the group. When someone sends a message to the group - the message is sent to all members of the group. However, the server will send the appropriate messages to the clients only when they contact the server.
+Here is implement a simple chat that behaves in a similar way to a WhatsApp group, where each of the contacts can write, and every message someone write is sent to all members of the group. When someone sends a message to the group - the message is sent to all members of the group. However, the server will send the appropriate messages to the clients only when they contact the server.  
+Here is how client communicates with the server:  
+1. Join the group: to join the group you should send the argument "1" and after that your name. For example if your name is Alice: ``1 Alice``.
 
 <a name="run"></a>
 ## How to run the chat?

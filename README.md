@@ -1,4 +1,4 @@
-# Server Chat
+# Group Chat - using UDP
 
 ## Table of contents
 1. [ Background ](#back)

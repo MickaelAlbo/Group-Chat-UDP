@@ -16,12 +16,42 @@ Here is how client communicates with the server:
 5. <ins>**Get an update:**</ins> If you want to get an update from the server (who joined, who left the group, who change his name and the messages sent) you should send the argument "5". 
 
 <a name="run"></a>
-## How to run the chat?
-For running the server and the client, you should firstly run the server in the terminal like:  ```[python command of interpreter] [name of the server file] [port]```.
-For example ```python3 server.py 12345```.
-After that you need to run the client like: ```[python command of the interpreter] [name of the client file] [ip]] [port]```.
-For example: ```python3 client.py 127.0.0.1 12345```.
-Note: It is possible to run in Windows, in a virtual machine or in wsl.
+## How to run the chat?  
+
+To get the chat application up and running, follow these steps:
+
+1. **Start the Server:**
+
+   Open your terminal or command prompt and navigate to the directory containing the server file. Then, run the server using the Python interpreter with the following command:  
+   ``python3 server.py [port]``
+   Replace `[port]` with the port number you want to use for the server. For example, if you want to use port 12345, the command would be:
+   ``python3 server.py 12345``
+   
+This will start the chat server.
+
+2. **Run the Client:**
+
+Now, open another terminal or command prompt window and navigate to the directory containing the client file. Run the client using the Python interpreter with the following command:  
+
+``python3 client.py [ip] [port]``
+
+
+Replace `[ip]` with the IP address of the machine where the server is running. If the server is running on the same machine as the client, you can use `127.0.0.1` as the IP address. Replace `[port]` with the same port number you used for the server.
+
+For example, if the server is running on `127.0.0.1` (localhost) with port `12345`, the command would be:
+
+``python3 client.py 127.0.0.1 12345``
+
+
+3. **Start Chatting:**
+
+Once the server and client are running, you can start chatting using the terminal. Messages sent from the client will be received by the server and then relayed to other connected clients.
+
+**Note:** This chat application can be run on Windows, a virtual machine, or within Windows Subsystem for Linux (WSL).
+
+Make sure to replace `[python command of interpreter]`, `[name of the server file]`, and `[name of the client file]` with the appropriate values specific to your system.
+
+
 
 <a name="add"></a>
 ## Addendum
